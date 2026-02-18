@@ -7,7 +7,7 @@ import RegistrationForm from './components/RegistrationForm/RegistrationForm';
 import ProtectedRoute from './components/CustomHooks/ProtectedRoute';
 import FileManager from './components/FileManager/FileManager'; 
 import LoginLogoutButtons from './components/LoginLogoutButtons/LoginLogoutButtons';
-/*import Admin from './components/FileManager/Admin/Admin';*/
+import Admin from './components/FileManager/Admin/Admin';
 
 function App() {
   {/*const { isLoggedIn, isAdmin } = useSelector((state) => state.user);*/}
@@ -39,11 +39,11 @@ const isAdmin = true;
               </ProtectedRoute>
             } />
             
-            {/*<Route path="/admin" element={
+            <Route path="/admin" element={
               <ProtectedRoute isAllowed={isLoggedIn && isAdmin} redirectPath="/panel">
                 <Admin />
               </ProtectedRoute>
-            } />*/}
+            } />
             
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
