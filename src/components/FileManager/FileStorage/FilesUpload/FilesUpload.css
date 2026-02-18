@@ -1,0 +1,58 @@
+.files-upload {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+}
+
+.file-container {
+  width: 200px;
+  height: 40px;
+  margin: .625rem .625rem .625rem .625rem;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.files-center-blocks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.overlapped {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0; margin: 0;
+  opacity: 0.1;
+  width: 100%;
+}
+
+.overlap {
+  position: absolute;
+  width: 100%;
+  background: #764ba2;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.overlap:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 -3px 12px 0 rgba(0,0,0,0.19);
+}
+
+.files-add-text {
+  margin: .625rem .625rem .625rem .625rem;
+  text-align: left;
+}
+
+.file-load-td-pointer {
+  cursor: pointer;
+}
+
+.files-save {
+  margin: .625rem .625rem .625rem .625rem;
+}
