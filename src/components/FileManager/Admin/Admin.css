@@ -429,11 +429,6 @@ input:checked + .toggle-slider:before {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-.empty-icon {
-  font-size: 48px;
-  margin-bottom: 16px;
-}
-
 .empty-state h3 {
   margin: 0 0 8px 0;
   color: #2c3e50;

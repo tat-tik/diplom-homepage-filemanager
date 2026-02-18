@@ -276,7 +276,7 @@ function Admin() {
                             onClick={() => navigate(`/panel/storage/${user.storage.id}`)}
                             title="Управление файлами"
                           >
-                            📂 Управление
+                            Управление
                           </button>
                         )}
                       </div>
@@ -321,7 +321,6 @@ function Admin() {
           </div>
         ) : (
           <div className="empty-state">
-            <div className="empty-icon">👥</div>
             <h3>Нет пользователей</h3>
             <p>По выбранному фильтру пользователи не найдены</p>
             <button onClick={() => setFilter('all')} className="btn btn-primary">
