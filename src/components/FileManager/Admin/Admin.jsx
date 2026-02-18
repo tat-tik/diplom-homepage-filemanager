@@ -246,7 +246,7 @@ function Admin() {
                     <td className="admin-cell">
                       {user.id === 1 ? (
                         <span className="admin-badge permanent" title="Главный администратор">
-                          👑 Главный админ
+                          Главный админ
                         </span>
                       ) : (
                         <label className="admin-toggle">
